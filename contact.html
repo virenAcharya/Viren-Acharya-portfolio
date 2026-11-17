@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Viren Acharya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="logo">Viren Acharya</div>
+  <!-- NEW: Hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="game-hero" id="hero">
+  <div class="overlay"></div>
+  <div class="particles"></div>
+
+  <div class="hero-content">
+    <h1 class="glow floating">📩 Let’s Work Together</h1>
+    <p class="fade-in">Freelance Full stack Developer | HTML • CSS • JavaScript • React • Django • MySQL</p>
+  </div>
+</section>
+
+<!-- CONTACT FORM -->
+<section class="section hidden">
+  <h2>💬 Send a Message</h2>
+
+  <div class="glass-card">
+
+    <form action="https://formsubmit.co/virenacharya99@gmail.com" method="POST">
+
+      <!-- disable captcha -->
+      <input type="hidden" name="_captcha" value="false">
+
+      <!-- redirect after submit -->
+      <input type="hidden" name="_next" value="https://virenacharya.github.io/viren-portfolio/contact.html">
+
+      <!-- 🛡️ Honeypot (spam protection - hidden from users) -->
+      <input type="text" name="_honey" style="display:none">
+
+      <input type="text" name="name" placeholder="Your Name" required
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:none;">
+
+      <input type="email" name="email" placeholder="Your Email" required
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:none;">
+
+      <textarea name="message" placeholder="Your Message" required
+        style="width:100%; padding:12px; margin:10px 0; border-radius:8px; border:none; height:120px;"></textarea>
+
+      <button type="submit" class="btn glow-btn">🚀 Send Message</button>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- CONTACT INFO -->
+<section class="section hidden">
+  <h2>📞 Contact Details</h2>
+
+  <div class="feature-grid">
+    
+    <div class="feature-card">
+      <h3>📍 Location</h3>
+      <p>India</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>⏱ Response Time</h3>
+      <p>Within 24 hours</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- SOCIAL CONTACT LINKS -->
+<section class="section hidden">
+  <h2>🌐 Connect With Me</h2>
+
+  <div class="feature-grid">
+
+    <!-- EMAIL -->
+    <div class="feature-card">
+      <h3>📧 Email</h3>
+      <p>Direct mail for projects</p>
+      <a href="mailto:virenacharya99@gmail.com" class="btn glow-btn">Send Email</a>
+    </div>
+
+    <!-- GITHUB -->
+    <div class="feature-card">
+      <h3>🐙 GitHub</h3>
+      <p>View my coding projects</p>
+      <a href="https://github.com/virenacharya" target="_blank" class="btn">Open GitHub</a>
+    </div>
+
+    <!-- LINKEDIN -->
+    <div class="feature-card">
+      <h3>💼 LinkedIn</h3>
+      <p>Professional profile & networking</p>
+      <a href="https://linkedin.com/in/viren--acharya" target="_blank" class="btn glow-btn">View LinkedIn</a>
+    </div>
+
+    <!-- INSTAGRAM -->
+    <div class="feature-card">
+      <h3>📸 Instagram</h3>
+      <p>Personal & updates</p>
+      <a href="https://instagram.com/lost_from_light32" target="_blank" class="btn secondary">Follow Me</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section hidden">
+  <h2>🚀 Ready to build something amazing?</h2>
+
+  <div class="glass-card">
+    <p>
+      I build modern, responsive frontend websites using HTML, CSS, and JavaScript ,  also React, Django and MySQL.
+    </p>
+
+    <a href="mailto:virenacharya99@gmail.com" class="btn glow-btn">Start a Project</a>
+  </div>
+</section>
+
+<!-- CURSOR -->
+
+
+<script src="script.js" defer></script>
+</body>
+</html>

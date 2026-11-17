@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flying Eye | Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="logo">Viren Acharya</div>
+  <!-- NEW: Hamburger -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="game-hero" id="hero">
+  <div class="overlay"></div>
+  <div class="particles"></div>
+
+  <div class="hero-content">
+    <h1 class="glow floating">🎮 Flying Eye</h1>
+    <p class="fade-in">Fast. Addictive. Skill-Based 2D Game Experience</p>
+
+    <div class="buttons fade-in delay">
+      <a href="https://viru-theswordking.itch.io/flying-eye" class="btn glow-btn">▶ Play Now</a>
+      <a href="https://github.com/virenAcharya/my-first-unreal-2D-game" class="btn secondary">💻 Source Code</a>
+    </div>
+  </div>
+</section>
+
+<!-- TRAILER SECTION -->
+<section class="section trailer-section">
+  <h2>🎬 Official Trailer</h2>
+
+  <div class="trailer-container">
+    <video autoplay muted loop playsinline id="trailerVideo">
+      <source src="videos/flying-eye-trailer.mp4" type="video/mp4">
+    </video>
+
+    <div class="trailer-overlay">
+      <button id="playPauseBtn">⏸</button>
+    </div>
+  </div>
+</section>
+
+<!-- GAMEPLAY PREVIEW -->
+<section class="section">
+  <h2>📸 Gameplay Preview</h2>
+
+  <div class="image-grid">
+    <img src="images/flying1.png" alt="Flying Eye Game menu">
+    <img src="images/flying2.png" alt="Flying Eye Game play">
+    <img src="images/flying3.png" alt="Flying Eye Game lose screen">
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <h2>✨ Game Features</h2>
+
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>⚡ Smooth Gameplay</h3>
+      <p>Responsive controls with fast-paced mechanics.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>🎧 Immersive Sound</h3>
+      <p>Sound effects that enhance the experience.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>🌍 Cross Platform</h3>
+      <p>Playable across multiple devices.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h2>🧠 About the Game</h2>
+  <div class="glass-card">
+    <p>
+      Flying Eye is a Flappy Bird-inspired arcade game where timing and precision
+      are everything. Navigate through obstacles and test your reflexes.
+    </p>
+  </div>
+</section>
+
+<!-- TECH -->
+<section class="section">
+  <h2>🛠 Tech Stack</h2>
+  <div class="glass-card">
+    Unreal Engine (Blueprints), Game Physics, UI Design, Audio Integration
+  </div>
+</section>
+
+<!-- IMAGE POPUP -->
+<div class="image-popup" id="imagePopup">
+  <span class="close-btn" id="closePopup">&times;</span>
+  <img id="popupImg" src="" alt="Preview">
+</div>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
