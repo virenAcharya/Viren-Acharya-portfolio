@@ -1,36 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/about.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/services.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/projects.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-classroom.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-flying-eye.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-ui.html</loc>
-  </url>
-
-  <url>
-    <loc>https://virenacharya.github.io/Viren-Acharya-portfolio/contact.html</loc>
-  </url>
-
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/about.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/services.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/projects.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-classroom.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-flying-eye.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/project-ui.html</loc></url>
+  <url><loc>https://virenacharya.github.io/Viren-Acharya-portfolio/contact.html</loc></url>
 </urlset>
