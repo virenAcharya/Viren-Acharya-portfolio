@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://virenacharya.github.io/Viren-Acharya-portfolio/sitemap.xml
